@@ -1,4 +1,7 @@
 # weatherCEP
+data from: https://openweathermap.org/ 
+and https://rp5.ru/Weather_archive_in_Alexandria_(airport)
+
 
 Before start
   - Need to install and run kafka 
@@ -29,6 +32,8 @@ Before start
 ### Step 3: run project
     //TODO change mail's targer, your mail's username and password
     1. run KafkaProducer.java
+    //function producerFromCSV load data from csv
+    // u can remove it for realtime data
     2. run  HotPatternCEP.java
             ColdPatternCEP.java
             RainPatternCEP.java
