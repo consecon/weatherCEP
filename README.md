@@ -2,6 +2,9 @@
 data from: https://openweathermap.org/ 
 and https://rp5.ru/Weather_archive_in_Alexandria_(airport)
 
+Catch CEP event from stream
+Weather data will be saved to elasticsearch but it is not necessary for true CEP program
+At here i just save it cause of my course
 
 Before start
   - Need to install and run kafka 
@@ -33,7 +36,7 @@ Before start
     //TODO change mail's targer, your mail's username and password
     1. run KafkaProducer.java
     //function producerFromCSV load data from csv
-    // u can remove it for realtime data
+    //u can remove it for realtime data
     2. run  HotPatternCEP.java
             ColdPatternCEP.java
             RainPatternCEP.java
