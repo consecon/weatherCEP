@@ -3,7 +3,7 @@ data from: https://openweathermap.org/
 and https://rp5.ru/Weather_archive_in_Alexandria_(airport)
 
 Catch CEP event from stream
-Weather data will be saved to elasticsearch but it is not necessary for true CEP program
+Weather data will be saved to elasticsearch but it is not necessary for true CEP program.
 At here i just save it cause of my course
 
 Before start
