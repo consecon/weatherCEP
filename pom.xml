@@ -142,7 +142,7 @@ under the License.
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.0-alpha4</version>
+			<version>4.5.13</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.flink/flink-connector-elasticsearch5 -->
 		<dependency>
@@ -203,7 +203,7 @@ under the License.
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.3.4</version>
+			<version>4.5.13</version>
 		</dependency>
 	</dependencies>
 
